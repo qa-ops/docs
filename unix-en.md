@@ -2,7 +2,7 @@
 
 ## Vídeos
 
-Todos esses comandos foram explicados, na prática, no meu canal [QaOps](http://videos.qa-ops.com/youtube
+All comands were explained, in a hands on approach, in my channel [QaOps](http://videos.qa-ops.com/youtube
 ). 
 
 * [Playlist de UNIX](https://www.youtube.com/playlist?list=PLhJTa4U57yUsKBcqWbGaAQ7QpcgzKakVe)
@@ -13,29 +13,29 @@ Todos esses comandos foram explicados, na prática, no meu canal [QaOps](http://
 
 ## Comandos
 
-* `man [COMANDO]` -> mostra o manual do comando passado
-* `pwd` -> mostra o diretório atual
-* `mkdir [PASTA]` -> cria a pasta passada por parâmetro
-* `mkdir ->v [PASTA]` -> cria a pasta passada e todas as pastas intermediárias
-* `cd [PASTA]` -> navega para a pasta passada 
-* `cd ..` -> sai (escapa) da pasta atual em 1 nível
-* `cd ../..` -> sai (escapa) da pasta atual em 2 níveis
-* `cd -` -> retorna para a 
-* `touch [ARQUIVO]` -> cria o arquivo passado por parâmetro
-* `rm [ARQUIVO]` -> deleta o arquivo passado por parâmetro
-* `rm -rf [PASTA]` -> deleta pasta e todas suas subpastas sem perdir confirmação
-* `echo '[TEXTO]' > [ARQUIVO]` -> escreve texto dentro do arquivo, sempre sobrescrevendo todo o arquivo 
-* `echo '[TEXTO]' >> [ARQUIVO]` -> escreve texto ao final arquivo, sempre adicionando
-* `cat [ARQUIVO]` -> imprime conteúdo do arquivo no terminal
-* `history` -> mostra o histórico dos comandos executados
-* `history | grep [CONTEÚDO_A_PROCURAR]` -> procura no histórico 
-* `history | grep --color [CONTEÚDO_A_PROCURAR]` -> procura no histórico e destaca o conteúdo achado
-* `cat [ARQUIVO] | grep [CONTEÚDO_A_PROCURAR]` -> procura no conteúdo de um arquivo 
-* `grep [CONTEÚDO_A_PROCURAR] [ARQUIVO]` -> procura no conteúdo de um arquivo
-* `cp [ARQUIVO_ORIGINAL] [NOME_DA_CÓPIA]` -> cria uma cópia do arquivo
-* `cp -r [PASTA_ORIGINAL] [NOME_DA_CÓPIA]` -> cria uma cópia da pasta
-* `mv [CONTEÚDO_ORIGINAL] [CAMINHO_DESTINO]` -> move arquivos e pastas. Também é usado para renomeiar pastas e arquivos
+* `man [COMMAND]` -> shows the manual of the given command
+* `pwd` -> shows the current directory
+* `mkdir [FOLDER]` -> creates the given directory
+* `mkdir -v [FOLDER]` -> creates the given directory along with the intermediate directories
+* `cd [FOLDER]` -> navigate to the given directory 
+* `cd ..` -> escapes the current directory by 1 level
+* `cd ../..` -> escapes the current directory by 2 levels
+* `cd -` -> goes back to the previous accessed directory
+* `touch [FILE]` -> creates a file
+* `rm [FILE]` -> deletes a file
+* `rm -rf [FOLDER]` -> removes directory along with its internal hierarchy without asking permission
+* `echo '[TEXT]' > [FILE]` -> writes text in a file, always overwriting the file 
+* `echo '[TEXT]' >> [FILE]` -> writes text to the end of f file, always appending
+* `cat [FILE]` -> prints the content of a file in the terminal
+* `history` -> shows the history of the executed commands
+* `history | grep [SEARCHED_CONTENT]` -> searches in the history 
+* `history | grep --color [SEARCHED_CONTENT]` -> searches the history and hightlights the found content
+* `cat [FILE] | grep [SEARCHED_CONTENT]` -> searches text in a file 
+* `grep [SEARCHED_CONTENT] [FILE]` -> searches text in a file
+* `cp [SOURCE_FILE] [COPY_NAME]` -> creates a copy of a file
+* `cp -r [SOURCE_FOLDER] [COPY_NAME]` -> creates a copy of a directory
+* `mv [SOURCE_CONTENT] [TARGET_PATH]` -> moves files and directories. Also used for renaming files an directories
 
-## Dicas
+## Hints
 
-* use a tecla TAB para autocompletar pastas e arquivos
+* use the TAB key to autocomplete directories and files

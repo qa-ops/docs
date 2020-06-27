@@ -15,15 +15,15 @@ Todos esses comandos foram explicados, na prática, no meu canal [QaOps](http://
 
 * `man [COMANDO]` -> mostra o manual do comando passado
 * `pwd` -> mostra o diretório atual
-* `mkdir [PASTA]` -> cria a pasta passada por parâmetro
-* `mkdir ->v [PASTA]` -> cria a pasta passada e todas as pastas intermediárias
-* `cd [PASTA]` -> navega para a pasta passada 
-* `cd ..` -> sai (escapa) da pasta atual em 1 nível
-* `cd ../..` -> sai (escapa) da pasta atual em 2 níveis
-* `cd -` -> retorna para a 
+* `mkdir [DIRETÓRIO]` -> cria o diretório passado por parâmetro
+* `mkdir -v [DIRETÓRIO]` -> cria o diretório passado e todas os diretórios intermediários
+* `cd [DIRETÓRIO]` -> navega para o diretório passado
+* `cd ..` -> sai (escapa) do diretório atual em 1 nível
+* `cd ../..` -> sai (escapa) do diretório atual em 2 níveis
+* `cd -` -> retorna para o último diretório acessado
 * `touch [ARQUIVO]` -> cria o arquivo passado por parâmetro
 * `rm [ARQUIVO]` -> deleta o arquivo passado por parâmetro
-* `rm -rf [PASTA]` -> deleta pasta e todas suas subpastas sem perdir confirmação
+* `rm -rf [DIRETÓRIO]` -> deleta diretório com toda sua hierarquia interna sem perdir confirmação
 * `echo '[TEXTO]' > [ARQUIVO]` -> escreve texto dentro do arquivo, sempre sobrescrevendo todo o arquivo 
 * `echo '[TEXTO]' >> [ARQUIVO]` -> escreve texto ao final arquivo, sempre adicionando
 * `cat [ARQUIVO]` -> imprime conteúdo do arquivo no terminal
@@ -33,9 +33,9 @@ Todos esses comandos foram explicados, na prática, no meu canal [QaOps](http://
 * `cat [ARQUIVO] | grep [CONTEÚDO_A_PROCURAR]` -> procura no conteúdo de um arquivo 
 * `grep [CONTEÚDO_A_PROCURAR] [ARQUIVO]` -> procura no conteúdo de um arquivo
 * `cp [ARQUIVO_ORIGINAL] [NOME_DA_CÓPIA]` -> cria uma cópia do arquivo
-* `cp -r [PASTA_ORIGINAL] [NOME_DA_CÓPIA]` -> cria uma cópia da pasta
-* `mv [CONTEÚDO_ORIGINAL] [CAMINHO_DESTINO]` -> move arquivos e pastas. Também é usado para renomeiar pastas e arquivos
+* `cp -r [DIRETÓRIO_ORIGINAL] [NOME_DA_CÓPIA]` -> cria uma cópia do diretório
+* `mv [CONTEÚDO_ORIGINAL] [CAMINHO_DESTINO]` -> move arquivos e diretórios. Também é usado para renomeiar pastas e arquivos
 
 ## Dicas
 
-* use a tecla TAB para autocompletar pastas e arquivos
+* use a tecla TAB para autocompletar diretórios e arquivos

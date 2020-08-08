@@ -7,6 +7,7 @@ Nesse repositório você irá encontrar todos os comandos e documentação utili
 
 ## Conteúdo
 * [Unix](unix-br.md) 
+* [Git](git-br.md) 
 
 ## Playlists
 * [Automação de API com Java e RestAssured](https://www.youtube.com/playlist?list=PLhJTa4U57yUudc7E3e5vAU7EPGs-rAjdn)
@@ -20,6 +21,7 @@ In this repository you will find all comands and supporting documentation used i
 
 ## Content
 * [Unix](unix-en.md)
+* [Git](git-en.md) 
 
 ## Playlists
 * [Java API tests with RestAssured](https://www.youtube.com/playlist?list=PLhJTa4U57yUucWPwVWudPK1LBWdpyw_dr)

@@ -13,7 +13,7 @@ All comands were explained, in a hands on approach, in my channel QaOps(http://v
 * https://www.tutorialspoint.com/unix/unix-file-permission.htm
 * https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 
-## Comandos
+## Commands
 
 ## Dealing with files and directories
 

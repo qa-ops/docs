@@ -56,6 +56,14 @@ Create a file `.bashrc` in your $HOME for your terminal setup. This file can be 
 * `alias resource='source $HOME/.bashrc'` -> create a shortcut 'resource' to reload the file '.bashrc' of your $HOME.
 * `alias qaops='cd $HOME/Documents/Personal/code/qaops'` -> create alias to enter a directory
 
+### Cut e AWK
+
+* `cat [FILE] | grep [FILTER] | cut -d [DELIMITER] -f1` -> Splits the String by the [DELIMITER] and shows the field 1
+* `cat [FILE] | grep [FILTER] | cut -d [DELIMITER] -f2` -> Splits the String by the [DELIMITER] and shows the field 2
+* `cat [FILE] | grep [FILTER] | cut -d [DELIMITER] -f2-` -> Splits the String by the [DELIMITER] and shows all fiels starting from the field 2
+* `cat [FILE] | grep [FILTER] | awk -F [DELIMITER] '{print $1}'` -> Splits the String by the [DELIMITER] and shows the first column
+* `cat [FILE] | grep [FILTER] | awk -F [DELIMITER] '{print $2}'` -> Splits the String by the [DELIMITER] and shows the second column
+* `cat [FILE] | grep [FILTER] | awk -F [DELIMITER] '{print "First - " $1 "\nSecond-" $2 "}'` -> Splits the String by the [DELIMITER] and and changes how the values are displayed
 
 ## Hints
 

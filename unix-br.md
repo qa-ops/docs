@@ -56,6 +56,15 @@ Criar o arquivo `.bashrc` dentro do seu $HOME para colocar suas configurações 
 * `alias resource='source $HOME/.bashrc'` -> cria um atalho 'resource' para recarregar o arquivo '.bashrc' do $HOME.
 * `alias qaops='cd $HOME/Documents/Personal/code/qaops'` -> criar alias para entrar em um diretório
 
+### Cut e AWK
+
+* `cat [ARQUIVO] | grep [FILTRO] | cut -d [DELIMITADOR] -f1` -> Separa a String pelo [DELIMITADOR] e mostra o campo 1
+* `cat [ARQUIVO] | grep [FILTRO] | cut -d [DELIMITADOR] -f2` -> Separa a String pelo [DELIMITADOR] e mostra o campo 2
+* `cat [ARQUIVO] | grep [FILTRO] | cut -d [DELIMITADOR] -f2-` -> Separa a String pelo [DELIMITADOR] e mostra todos os campos a partir do campo 2
+* `cat [ARQUIVO] | grep [FILTRO] | awk -F [DELIMITADOR] '{print $1}'` -> Separa a String pelo [DELIMITADOR] e imprime a coluna 1
+* `cat [ARQUIVO] | grep [FILTRO] | awk -F [DELIMITADOR] '{print $2}'` -> Separa a String pelo [DELIMITADOR] e imprime a coluna 2
+* `cat [ARQUIVO] | grep [FILTRO] | awk -F [DELIMITADOR] '{print "First - " $1 "\nSecond-" $2 "}'` -> Separa a String pelo [DELIMITADOR] e modifica como os valores serão mostrados
+
 ## Dicas
 
 * use a tecla TAB para autocompletar diretórios e arquivos

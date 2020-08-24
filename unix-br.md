@@ -78,6 +78,22 @@ Criar o arquivo `.bashrc` dentro do seu $HOME para colocar suas configurações 
 * `${2:-valor_padrao}` -> usa segundo argumento caso ele existe, senão, usar o valor `valor_padrao`
 * `[[ -e ARQUIVO ]]` -> verifica se arquivo existe
 
-## Dicas
+### Lidando servidor remoto
 
-* use a tecla TAB para autocompletar diretórios e arquivos
+* `ssh USER@HOST` - acessa o HOST na porta 22
+* `ssh -p 2222 USER@HOST` - acessa o HOST na porta 2222
+* `ssh -o PubkeyAuthentication=no USER@HOST` - acessa o HOST forçando que a autenticação por senha
+* `scp ARQUIVO_LOCAL USER@HOST:/home/user` - copia o ARQUIVO_LOCAL para o diretório /home/user do servidor
+* `scp USER@HOST:/home/user/arquivo.txt .` - copia o /home/user/arquivo.txt do servidor para o diretório atual local
+* `du -sh *` - mostra o tamanho total de todos os arquivos e diretórios da pasta onde o comando foi executando
+* `df -h` - mostra a utilização do disco.
+
+### Dicas Terminal
+
+* `TAB` - use para autocompletar diretórios e arquivos
+* `seta para cima | seta para baixo` - navega pelos comandos previamente executados
+* `ctrl + r` - pesquisa pelos comandos previamente executados
+* `ctrl + a` - coloca o cursor no início da linha
+* `ctrl + b` - coloca o cursor no final da linha
+* `!COMANDO` - re-executa o último COMANDO
+* `!NÚMERO_DO_HISTÓRICO` - re-executa o comando baseado na número da linha

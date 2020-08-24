@@ -79,6 +79,22 @@ Create a file `.bashrc` in your $HOME for your terminal setup. This file can be 
 * `[[ -e ARQUIVO ]]` -> verify if file exists
 * `[[ STRING == STRING ]]` -> compare two strings
 
-## Hints
+### Dealing with remote server
 
-* use the TAB key to autocomplete directories and files
+* `ssh USER@HOST` - access the HOST on port 22
+* `ssh -p 2222 USER@HOST` - access the HOST on port 2222
+* `ssh -o PubkeyAuthentication=no USER@HOST` - access the HOST forcing password autentication
+* `scp LOCAL_FILE USER@HOST:/home/user` - copy LOCAL_FILE to the directory /home/user do servidor
+* `scp USER@HOST:/home/user/file.txt .` - copy the /home/user/file.txt from the server to the current local directory
+* `du -sh *` - show the total size of all files and directory where the command was executed
+* `df -h` - show the disk utilization
+
+### Terminal hints
+
+* `TAB` - use to autocomplete directories and files
+* `seta para cima | seta para baixo` - navigate through the previously executed commands
+* `ctrl + r` - search for the previously executed commands
+* `ctrl + a` - place the cursor at the beginning of the line
+* `ctrl + b` - place the cursor at the end of the line
+* `!COMMAND` - re-execute the last COMMAND
+* `!HISTORY_NUMBER` - re-execute the command based on the history number

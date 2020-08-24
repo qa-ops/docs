@@ -2,8 +2,7 @@
 
 ## Vídeos
 
-Todos esses comandos foram explicados, na prática, no meu canal QaOps(http://videos.qa-ops.com/youtube
-). 
+Todos esses comandos foram explicados, na prática, no meu canal QaOps(http://videos.qa-ops.com/youtube). 
 
 * Playlist de UNIX(https://www.youtube.com/playlist?list=PLhJTa4U57yUsKBcqWbGaAQ7QpcgzKakVe)
 

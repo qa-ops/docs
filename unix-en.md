@@ -1,12 +1,12 @@
-# UNIX - Comandos básicos
+# UNIX - Basic Commands
 
-## Vídeos
+## Videos
 
 All comands were explained, in a hands on approach, in my channel QaOps(http://videos.qa-ops.com/youtube). 
 
 * Playlist de UNIX(https://www.youtube.com/playlist?list=PLhJTa4U57yUsKBcqWbGaAQ7QpcgzKakVe)
 
-## Referências
+## References
 
 * https://en.wikipedia.org/wiki/Shell_script
 * https://www.tutorialspoint.com/unix/unix-file-permission.htm

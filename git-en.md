@@ -1,13 +1,13 @@
 # GIT CLI
 
-## Vídeos
+## Videos
 
 All comands were explained, in a hands on approach, in my channel QaOps(http://videos.qa-ops.com/youtube
 ). 
 
 * Playlist de UNIX(https://www.youtube.com/playlist?list=PLhJTa4U57yUsKBcqWbGaAQ7QpcgzKakVe)
 
-## Referências
+## References
 
 * https://git-scm.com/docs
 
